@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MAYDIUM is a South Korean software development business creating mobile applications and games for Android users.">
+
+  <meta
+    name="description"
+    content="MAYDIUM is a South Korean software development business focused on Android mobile applications and games."
+  >
+
+  <meta name="author" content="MAYDIUM">
+
   <title>MAYDIUM — Mobile Applications & Games</title>
 
   <style>
@@ -46,6 +52,7 @@
       position: sticky;
       top: 0;
       z-index: 10;
+      backdrop-filter: blur(8px);
     }
 
     .nav {
@@ -226,6 +233,8 @@
     }
 
     .contact-label {
+      display: inline-block;
+      min-width: 90px;
       color: #777777;
       font-size: 13px;
       margin-right: 8px;
@@ -262,7 +271,6 @@
       }
     }
   </style>
-
 </head>
 
 <body>
@@ -271,218 +279,234 @@
     <div class="container nav">
       <a class="brand" href="#">MAYDIUM</a>
 
-```
-  <nav>
-    <a href="#about">About</a>
-    <a href="#applications">Applications</a>
-    <a href="#plans">Plans</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</div>
-```
-
+      <nav>
+        <a href="#about">About</a>
+        <a href="#applications">Applications</a>
+        <a href="#plans">Distribution</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
 
-```
-<section class="hero">
-  <div class="container">
-    <p class="eyebrow">Mobile Application &amp; Game Development</p>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Mobile Application &amp; Game Development</p>
 
-    <h1>
-      Building useful and engaging mobile experiences.
-    </h1>
+        <h1>
+          Building useful and engaging mobile experiences.
+        </h1>
 
-    <p class="hero-description">
-      MAYDIUM is a South Korean software development business creating
-      mobile applications and games for Android users.
-    </p>
-  </div>
-</section>
-
-<section class="section" id="about">
-  <div class="container">
-    <h2 class="section-title">About MAYDIUM</h2>
-
-    <p class="section-description">
-      MAYDIUM develops and operates mobile applications and games with a
-      focus on practical utility, accessible user experiences, and
-      engaging gameplay.
-    </p>
-
-    <div class="about-grid">
-
-      <div class="card">
-        <h3>Mobile Applications</h3>
-        <p>
-          Utility, productivity, lifestyle, and everyday applications
-          designed for smartphone users.
+        <p class="hero-description">
+          MAYDIUM is a South Korean software development business focused
+          on developing and publishing Android mobile applications and games.
         </p>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Mobile Games</h3>
-        <p>
-          Casual and interactive mobile games designed for accessible
-          and enjoyable gameplay.
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About MAYDIUM</h2>
+
+        <p class="section-description">
+          MAYDIUM develops and publishes mobile applications and games
+          with a focus on practical utility, accessible user experiences,
+          and engaging gameplay.
         </p>
-      </div>
 
-      <div class="card">
-        <h3>Android Development</h3>
-        <p>
-          Android applications developed and maintained for distribution
-          through major mobile app stores.
+        <div class="about-grid">
+
+          <div class="card">
+            <h3>Mobile Applications</h3>
+            <p>
+              Utility, productivity, lifestyle, and everyday applications
+              designed for smartphone users.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Mobile Games</h3>
+            <p>
+              Casual and interactive mobile games designed for accessible
+              and enjoyable gameplay.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Android Development</h3>
+            <p>
+              Android applications developed and maintained for distribution
+              through major mobile application stores.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="section" id="applications">
+      <div class="container">
+        <h2 class="section-title">Applications</h2>
+
+        <p class="section-description">
+          MAYDIUM currently develops and operates a portfolio of Android
+          applications and games. Selected applications are available
+          through Google Play and are planned for additional distribution
+          through Samsung Galaxy Store.
         </p>
+
+        <div class="apps">
+
+          <div class="app-card">
+            <h3>OneCard Online</h3>
+            <p>
+              An online multiplayer card game for Android users.
+            </p>
+
+            <a
+              class="store-link"
+              href="https://play.google.com/store/apps/details?id=com.susuim.onecard&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play
+            </a>
+          </div>
+
+          <div class="app-card">
+            <h3>Dokpark</h3>
+            <p>
+              A casual party game featuring random challenges and
+              penalty game mechanics.
+            </p>
+
+            <a
+              class="store-link"
+              href="https://play.google.com/store/apps/details?id=com.susuim.dokpark&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play
+            </a>
+          </div>
+
+          <div class="app-card">
+            <h3>LottoOracle</h3>
+            <p>
+              A lottery number analysis and information application.
+            </p>
+
+            <a
+              class="store-link"
+              href="https://play.google.com/store/apps/details?id=com.susuim.lotto&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play
+            </a>
+          </div>
+
+          <div class="app-card">
+            <h3>DIY Toolbox</h3>
+            <p>
+              A practical utility application providing home improvement
+              tools and calculators.
+            </p>
+
+            <a
+              class="store-link"
+              href="https://play.google.com/store/apps/details?id=com.susuim.diytoolbox&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play
+            </a>
+          </div>
+
+        </div>
       </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <!-- Distribution Plans -->
+    <section class="section" id="plans">
+      <div class="container">
+        <h2 class="section-title">Distribution Plans</h2>
 
-<section class="section" id="applications">
-  <div class="container">
-    <h2 class="section-title">Applications</h2>
-
-    <p class="section-description">
-      MAYDIUM currently develops and operates a portfolio of Android
-      applications and games. Selected applications are available
-      through Google Play and are planned for additional distribution
-      through Galaxy Store.
-    </p>
-
-    <div class="apps">
-
-      <div class="app-card">
-        <h3>OneCard Online</h3>
-        <p>
-          An online multiplayer card game for Android users.
+        <p class="section-description">
+          MAYDIUM plans to expand the distribution of its Android
+          applications to additional mobile application marketplaces.
         </p>
-        <a
-          class="store-link"
-          href="https://play.google.com/store/apps/details?id=com.susuim.onecard&hl=ko/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Play
-        </a>
+
+        <div class="plans">
+
+          <div class="plan">
+            <h3>Samsung Galaxy Store</h3>
+
+            <p>
+              MAYDIUM plans to publish selected Android applications
+              and games through Samsung Galaxy Store, initially focusing
+              on South Korea and expanding selected localized applications
+              to international markets.
+            </p>
+          </div>
+
+          <div class="plan">
+            <h3>International Markets</h3>
+
+            <p>
+              Applications with English and Japanese localization may be
+              distributed to international users depending on the target
+              application and market.
+            </p>
+          </div>
+
+        </div>
       </div>
+    </section>
 
-      <div class="app-card">
-        <h3>Dokpark</h3>
-        <p>
-          A casual party game featuring random challenges and penalty
-          game mechanics.
-        </p>
-        <a
-          class="store-link"
-          href="https://play.google.com/store/apps/details?id=com.susuim.dokpark&hl=ko/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Play
-        </a>
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-box">
+
+          <p>
+            <span class="contact-label">Company</span>
+            MAYDIUM
+          </p>
+
+          <p>
+            <span class="contact-label">Location</span>
+            Republic of Korea
+          </p>
+
+          <p>
+            <span class="contact-label">Business</span>
+            Software Development &amp; Mobile Applications
+          </p>
+
+          <p>
+            <span class="contact-label">Email</span>
+            <a href="mailto:contact@maydium.co.kr">
+              contact@maydium.co.kr
+            </a>
+          </p>
+
+          <p>
+            <span class="contact-label">Website</span>
+            <a href="https://maydium.co.kr">
+              maydium.co.kr
+            </a>
+          </p>
+
+        </div>
       </div>
-
-      <div class="app-card">
-        <h3>LottoOracle</h3>
-        <p>
-          A lottery number analysis and information application.
-        </p>
-        <a
-          class="store-link"
-          href="https://play.google.com/store/apps/details?id=com.susuim.lotto&hl=ko/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Play
-        </a>
-      </div>
-
-      <div class="app-card">
-        <h3>DIY Toolbox</h3>
-        <p>
-          A practical utility application providing home improvement
-          tools and calculators.
-        </p>
-        <a
-          class="store-link"
-          href="https://play.google.com/store/apps/details?id=com.susuim.diytoolbox&hl=ko/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Play
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section" id="plans">
-  <div class="container">
-    <h2 class="section-title">Distribution Plans</h2>
-
-    <p class="section-description">
-      MAYDIUM plans to expand the distribution of its Android applications
-      to additional mobile application marketplaces.
-    </p>
-
-    <div class="plans">
-
-      <div class="plan">
-        <h3>Galaxy Store</h3>
-        <p>
-          MAYDIUM plans to publish selected Android applications and
-          games through Galaxy Store, initially focusing on South Korea
-          and expanding selected localized applications to international
-          markets.
-        </p>
-      </div>
-
-      <div class="plan">
-        <h3>International Markets</h3>
-        <p>
-          Applications with English and Japanese localization may be
-          distributed to international users depending on the target
-          application and market.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section contact" id="contact">
-  <div class="container">
-    <h2 class="section-title">Contact</h2>
-
-    <div class="contact-box">
-      <p>
-        <span class="contact-label">Company</span>
-        MAYDIUM
-      </p>
-
-      <p>
-        <span class="contact-label">Location</span>
-        Republic of Korea
-      </p>
-
-      <p>
-        <span class="contact-label">Business</span>
-        Software Development &amp; Mobile Applications
-      </p>
-
-      <!-- Replace with your actual business contact email -->
-      <p>
-        <span class="contact-label">Email</span>
-        contact@maydium.co.kr
-      </p>
-    </div>
-  </div>
-</section>
-```
+    </section>
 
   </main>
 
